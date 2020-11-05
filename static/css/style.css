@@ -718,16 +718,14 @@ text-align: center;
     background-color: var(--maincolor);
     text-align: center;
     width: 100%;
-    height: 120px;
+    height: 72px;
     bottom: 0;
     overflow: hidden;
     margin-top: 50px;
     font-size: 20px;
     justify-content: center;
 }
-.contact .fotter p{
-    padding: 15px;
-}
+
 .contact .fotter span{
     color: transparent;
     text-shadow: 0 0 0 var(--subcolor);
@@ -752,95 +750,22 @@ text-align: center;
     background: #fff;
   }
 
-@media (max-width: 400px) {
 
 
-    .timeline-area div h2,
-    .timeline-area div h4,
-    .timeline-area div h3 {
-      font-size: 15px;
-    }
-    .timeline-area-exp div h2{
-        font-size: 10px;
-    }
-    .timeline-area-exp div h4{
-        font-size: 10px;
-    }
-    .timeline-area-exp div h3{
-        font-size: 13px;
-    }
-    .home .home-content .home-right{
-        margin-top: 20px;
-    }
-    .home .home-content .home-right .text-1{
-        width: 100%;
-        text-align: center;
-        font-size: 4vw;
-    }
-    .home .home-content .home-right .text-2{
-        width: 100%;
-        text-align: center;
-        font-size: 6vw;
-    }
-    .home .home-content .home-right .text-3{
-        width: 100%;
-        text-align: center;
-        font-size: 5vw;
-    }
-    .home .home-content .home-right .text-3 span{
-        width: 100%;
-        text-align: center;
-        font-size: 5vw;
-    }
-    .navbar .logo a{
-        font-size: 5vw;
-    }
-    .contact .fotter{
-        height: 150px;
-        margin-top: 5px;
-    }
-    .works .works-content .card{
-        width: 100%;
-        flex-direction: column;
-    }
-    .works .works-content .box{
-        width: 100%;
 
-    }
-    .works .works-content .card .text{
-        font-size: 10px;
-    }
-    .works .works-content .card p{
-        font-size:10px
-    }
-
-    .works .fotter {
-        margin-bottom: 0;
-        margin-top: 10px;
-        font-size: 3.5vw;
-        text-align: end;
-    }
-
-}
-
-@media (max-width: 991px){
+/* @media (max-width: 991px){
     .max-width{
         padding: 0 50px;
     }
 
     .contact .fotter{
-        height: 150px;
+        height: 110px;
         margin-top: 10px;
         font-size: 20px;
     }
-}
-@media (max-width: 900px){
-    .about .about-content .left img{
-        display: none;
-    }
+} */
 
-}
-@media (max-width: 947px){
+@media (max-width: 1000px){
     .max-width{
         padding: 0 50px;
     }
@@ -894,9 +819,7 @@ text-align: center;
         width: 100%;
     }
     .about .about-content .left{
-        display: flex;
-        justify-content: center;
-        margin: 0 auto 60px;
+        display: none;
     }
     .about .about-content .right{
         flex: 100%;
@@ -904,6 +827,70 @@ text-align: center;
     .skills .skills-content .column{
         width: 100%;
     }
+    .skills .skills-content .right .bars,.skills .skills-content .left .bars{
+        margin-bottom: 10px;
+    }
+    .skills .skills-content .info{
+        display: flex;
+        margin-bottom: 2px;
+        align-items: center;
+    }
+    .skills .skills-content span{
+        font-weight: 300;
+        font-size: 10px;
+    }
+    .skills .skills-content .line{
+        height: 5px;
+        width: 90%;
+        background: lightgrey;
+        position: relative;
+    }
+    .works .works-content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+   .works .works-content .card{
+       height: 100px;
+       width: 50%;
+
+   }
+
+    .works .works-content .card .text{
+        font-size: 11px;
+        font-weight: 200;
+    }
+    .works .works-content .card p{
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .works .fotter {
+        margin-top: 0px;
+    }
+    .experience-content {
+        display: flex;
+        width: 100%;
+     }
+    .timeline-area-exp {
+      width: 100%;
+    }
+    .timeline-area-exp div h2{
+        font-size: 1.4vw;
+    }
+    .timeline-area-exp div h4{
+        font-size: 1.2vw;
+    }
+    .timeline-area-exp div h3 {
+      font-size: 1.3vw;
+    }
+    .works .fotter{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+
+
 }
 
 @media (max-width: 900px) {
@@ -924,7 +911,9 @@ text-align: center;
       width: 100%;
     }
 
-
+    .about .about-content .left img{
+        display: none;
+    }
     .timeline-area div h2,
     .timeline-area div h4,
     .timeline-area div h3 {
@@ -932,15 +921,14 @@ text-align: center;
       text-align: center;
     }
     .timeline-area-exp div h2{
-        font-size: 1.2vw;
-    }
-    .timeline-area-exp div h4{
         font-size: 1.4vw;
     }
-    .timeline-area-exp div h3 {
-      font-size: 1.4vw;
+    .timeline-area-exp div h4{
+        font-size: 1.3vw;
     }
-
+    .timeline-area-exp div h3 {
+      font-size: 1.5vw;
+    }
 
     .skills .skills-content .column{
         width: 100%;
@@ -965,10 +953,16 @@ text-align: center;
         position: relative;
     }
     .works .works-content{
-        margin-top:60px ;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
     }
    .works .works-content .card{
        height: 100px;
+       width: 50%;
+
    }
 
     .works .works-content .card .text{
@@ -979,19 +973,97 @@ text-align: center;
         font-size: 11px;
         font-weight: 500;
     }
-
-  }
-  @media (max-width: 800px) {
-    .contact .contact-content .info #email {
-      font-size: 19px;
+    .works .fotter{
+        font-size: 13px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .contact .fotter{
+        margin-top: 10px;
     }
 
-
   }
+  @media (max-width: 400px) {
 
-@media (max-width: 1000px){
+
+    .timeline-area div h2,
+    .timeline-area div h4,
+    .timeline-area div h3 {
+      font-size: 15px;
+    }
+    .timeline-area-exp div h2{
+        font-size: 7px;
+    }
+    .timeline-area-exp div h4{
+        font-size: 9px;
+    }
+    .timeline-area-exp div h3{
+        font-size: 8px;
+    }
+    .home .home-content .home-right{
+        margin-top: 20px;
+    }
+    .home .home-content .home-right .text-1{
+        width: 100%;
+        text-align: center;
+        font-size: 4vw;
+    }
+    .home .home-content .home-right .text-2{
+        width: 100%;
+        text-align: center;
+        font-size: 6vw;
+    }
+    .home .home-content .home-right .text-3{
+        width: 100%;
+        text-align: center;
+        font-size: 5vw;
+    }
+    .home .home-content .home-right .text-3 span{
+        width: 100%;
+        text-align: center;
+        font-size: 5vw;
+    }
+    .navbar .logo a{
+        font-size: 5vw;
+    }
+    .contact .fotter{
+        height: 150px;
+        margin-top: 5px;
+    }
     .works .works-content .card{
         width: 50%;
+        flex-direction: column;
+        height: 100px;
+        padding: 0.5px 1px;
     }
 
+    .works .works-content .box{
+        width: 100%;
+        height: 100px;
+
+    }
+    .works .works-content .card .text{
+        font-size: 8px;
+        text-align: center;
+    }
+    .works .works-content .card p{
+        font-size:8px
+    }
+
+    .works .fotter {
+        margin-bottom: 0;
+        margin-top: 10px;
+        font-size: 3.5vw;
+        text-align: end;
+    }
+    .works .title::after{
+
+        font-size: 15px;
+
+    }
+    .contact .contact-content .info .donnees{
+        font-size: 17px;
+    }
 }
+
+
