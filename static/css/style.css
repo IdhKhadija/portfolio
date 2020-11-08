@@ -448,10 +448,10 @@ text-align: center;
     width: 60%;
 }
 .skills-content .angular::before{
-    width: 50%;
+    width: 40%;
 }
 .skills-content .react::before{
-    width: 50%;
+    width: 30%;
 }
 .skills-content .spring::before{
     width: 80%;
